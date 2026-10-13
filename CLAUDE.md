@@ -1,7 +1,7 @@
 # Stemixo – web firmy
 
 Statický jednostránkový web stavební firmy **Stemixo** (Filip Štefek, Kopřivnicko).
-Čisté HTML + CSS + vanilla JS, žádný build, žádný framework, žádný git.
+Čisté HTML + CSS + vanilla JS, žádný build, žádný framework.
 Náhled: otevřít `index.html` v prohlížeči (případně `npx serve .`).
 
 ## Soubory webu
@@ -52,5 +52,9 @@ Ostatní obsah adresáře **není součást webu**: `Práce/` (nabídky, vyúčt
 
 ## Nasazení
 
-V adresáři není žádná konfigurace hostingu (žádný git, CNAME, .htaccess). Nahrává se ručně jako statické soubory –
+V adresáři není žádná konfigurace hostingu (žádný CNAME, .htaccess). Nahrává se ručně jako statické soubory –
 na server patří jen: `index.html`, `style.css`, `main.js`, `favicon.png`, `Logo/`, `Stemixo_foto/` (bez zipů).
+
+## Git
+
+Repozitář: https://github.com/fstefek/Stemixo-web (větev `main`). Verzuje se jen web – `Práce/`, Flutter aplikace a `*.zip` jsou v `.gitignore`.
