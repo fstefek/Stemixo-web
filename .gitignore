@@ -1,0 +1,12 @@
+# Mimo web – firemní dokumenty a aplikace
+Práce/
+Stemixo APP/
+stavebni_firma_app/
+
+# Zálohy / balíky
+*.zip
+
+# Systémové
+Thumbs.db
+desktop.ini
+.DS_Store
